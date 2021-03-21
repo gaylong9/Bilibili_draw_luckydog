@@ -6,6 +6,8 @@ B站动态评论区抽奖，使用页面Console与JS，简单易用。
 
 [参考项目](https://blog.csdn.net/Ikaros_521/article/details/106483311)
 
+[下载本代码](https://github.com/gaylong9/Bilibili_draw_luckydog/releases/download/v1.0/draw.js)
+
 &nbsp;
 
 语言：JavaScript
@@ -186,8 +188,8 @@ function waitRes() {
 
 * `luckySum`：中奖总人数，即要抽出几个中奖者；默认0表示不设置，会在运行过程中弹窗提示输入；若修改则随后不会弹窗询问
 * `showId`：中奖结果是否显示ID；默认`true`显示，改为`false`不显示；**但不可改为其他值**
-* `showLink`：中奖结果是否显示发送私信连接；默认`true`显示，改为`false`不显示；**但不可改为其他值**
-* `storeInfoIntervalTime`：逐页读取用户信息时，每隔一段时间进行换页读取操作，换页、加载本页评论、程序读取计算存储都要消耗时间；本设置就是间隔时间，毫秒为单位，**建议1000以上；默认1500**
+* `showLink`：中奖结果是否显示发送私信链接；默认`true`显示，改为`false`不显示；**但不可改为其他值**
+* `storeInfoIntervalTime`：逐页读取用户信息时，每隔一段时间换页，换页、加载本页评论、程序读取计算存储都要消耗时间；本设置就是间隔时间，毫秒为单位，**建议1000以上；默认1500**
 * `waitIntervalNum`：展示结果前有一个等待过程，输出几句`抽出的*名用户是...`，本设置项就是设置等待过程中输出次数；默认3
 * `waitIntervalTime`：上述等待过程，每次输出间隔多少毫秒；默认1500
 
@@ -207,7 +209,6 @@ function waitRes() {
 
 	![](README/error1.png)
 
-	![](README/error1.png)
 
 &nbsp;
 
